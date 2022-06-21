@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+nav {
+    display: inline;
+    text-align: center;
+}
+a {
+    display:none;
+}
+
+nav.menu1:hover > a{
+    position: relative;
+    display: block;
+    background-color: rgb(214, 211, 42);
+}
+
+nav.menu2:hover > a{
+    position: fixed;
+    display: block;
+    background-color: rgb(214, 211, 42);
+}
+
+nav.menu3:hover > a{
+    position: fixed;
+    display: block;
+    background-color: rgb(214, 211, 42);
+}

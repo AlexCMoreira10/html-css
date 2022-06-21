@@ -1,0 +1,5 @@
+#F0F04F Amarelo
+#FFFF6E Amarelo Claro
+#A3A326 Amarelo Escuro
+#5B15A3 Roxo escuro 
+#9E4FF0 Roxo Claro
