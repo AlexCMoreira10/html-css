@@ -2,22 +2,65 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
-body {
-    width: 97vh;
-    height: 97vh;
-    border: 1x solid black;
-    background-color: yellow;
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
-    background-color: black;
+    padding-top: 50px;
     text-align: center;
+}
+header h1 {
+    padding-bottom: 10px;
+
+}
+
+header p{
+    padding-bottom: 50px;
+}
+header , footer{
+    background-color: black;
     color: white;
 }
 
-header h1 {
-
+header a ,Footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
-p {
-    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+
+header>p>a:hover, footer>p>a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: lightgray;
+}
+
+section.imagem {
+    background-color: lightslategray;
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    text-align: center;
 }
