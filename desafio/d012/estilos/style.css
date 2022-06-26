@@ -51,6 +51,10 @@ header>p>a:hover, footer>p>a:hover {
     text-decoration: underline;
 }
 
+main {
+    max-width: 800px;
+    margin: auto;
+}
 section {
     
     padding-top: 10vh;
@@ -60,6 +64,7 @@ section {
 
     font-family: var(--fonte3);
     font-size: 3.6vw;
+
 }
 
 section p {
@@ -74,6 +79,20 @@ section.imagem {
     
     background-color: lightslategray;
     color: white;
+    box-shadow: inset 6px 6px 13px 3px rgba(0, 0, 0, 0.336);
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.562);
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: bottom right;
 }
 
 section.imagem > p {
