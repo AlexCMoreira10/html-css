@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Filmes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption {
+            padding: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td,th {
+            text-align: Center;
+            border: 1px solid black;
+
+        }
+
+        th.img:hover{
+            background-image: url(ext_priscilla.jpg);
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nome</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+        
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="img" rowspan="3" scope="rowgroup">Mulher</th>
+                <td>Ana</td>
+                <td>XXXX</td>
+                <td>XXXX</td>
+                <td>XXXX</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>XXXXX</td>
+                <td>XXXXX</td>
+                <td>XXXXX</td>
+            </tr>
+            <tr>
+                <td>Patricia</td>
+                <td>XXXXXX</td>
+                <td>XXXXXX</td>
+                <td>XXXXXX</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>José</td>
+                <td>XXXXXX</td>
+                <td>XXXXXX</td>
+                <td>XXXXXX</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>XXXXXX</td>
+                <td>XXXXXX</td>
+                <td>XXXXXX</td>
+            </tr>
+            <tr>
+                <td>Afonso</td>
+                <td>XXXXXX</td>
+                <td>XXXXXX</td>
+                <td>XXXXXX</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
