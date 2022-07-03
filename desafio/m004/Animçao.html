@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação</title>
+    <style>
+        **{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-image: url('imagem/fundo-pequeno.jpg');
+            background-size: cover;
+        }
+        .text_1 {
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 10hv;
+            border: 20px double white;
+            text-align: center;
+            font-family: cursive;
+            animation: double 10s ease-in-out infinite alternate;
+
+        }
+        @keyframes double {
+            to {
+                -webkit-transform: scale(2.5) rotate(-55deg)skew(-5deg, 50deg);
+                -moz-transform: scale(2.5)rotate(-55deg)skew(-5deg, 50deg) ;
+                transform: scale(2.5)rotate(-55deg)skew(-5deg, 50deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text_1">
+        <h2>Texto Animado</h2>
+    </div>
+</body>
+</html>
