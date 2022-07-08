@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com Dom</title>
+    <style>
+        body {
+            background-color: rgb(248, 248, 169);
+            color: rgb(0, 155, 155);
+            font: normal 15pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudos com DOM</h1>
+    <p>Aqui vai o Resultado</p> <br>
+    <p>Aprendendo a Usar <strong>DOM</strong></p>
+    <p id="msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nisi cupiditate, facilis ipsum, adipisci tempore non dolorem fugit tempora, est aspernatur? Suscipit obcaecati dolore impedit corporis veniam voluptatum cupiditate facere!</p>
+    <div class="msg2">
+        Click em mim
+    </div>
+    <script>
+       /* window.document.write('Olá, Mundo! <br>')
+        window.document.write(window.navigator.appName +'<br>')
+        window.document.write(window.document.URL +'<br>') */
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1];
+        window.document.write(p1.innerHTML)
+        p1.style.color ='blue'
+        corpo.style.background = 'black'
+        //window.alert(p1.innerText)
+        var d = window.document.getElementById('msg') //seleção por ID
+        d.style.background = 'lightgreen'
+        /*
+        var msg2 = window.document.getElementsByName('msg')[0]
+        d.innerText = 'ola'
+        */
+        var msg2 = window.document.querySelector('div.msg2')
+        msg2.style.color = 'white'
+
+    </script>
+</body>
+</html>
