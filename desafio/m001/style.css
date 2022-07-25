@@ -26,6 +26,7 @@ ul.menu {
     margin-left: 1px;
     text-align: center;
     color: white;
+    box-sizing: border-box;
 }
 p.principal {
     background-color: aqua;
